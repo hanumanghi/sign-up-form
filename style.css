@@ -4,15 +4,11 @@ body{
     min-height: 100vh;
 }
 
-p{
-    padding-left: 24px;
-}
-
 .display{
     background: no-repeat url("./adrian-rudzki-M7DUdmBn910-unsplash.jpg");
     background-position: center;
     background-size:cover;
-    width: 35%;
+    width: 169vh;
     margin: 0;
 }
 
@@ -30,6 +26,19 @@ p{
 
 .picture{
 height: 9vh;
+}
+
+h2{
+    padding-left: 9vh;
+    padding-right: 64vh;
+}
+
+h3{
+    padding-left: 24px;
+}
+
+p{
+    padding-left: 36px;
 }
 
 .signup{
@@ -51,4 +60,24 @@ label{
     display: flex;
     flex-direction: column;
 
+}
+
+button{
+    margin-left: 27px;
+    margin-bottom: 9px;
+    border: none;
+    border-radius: 12px;
+    color:aliceblue;
+    background-color: chocolate;
+    font-size: 2em;
+    padding: 12px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+a{
+    color:chocolate;
 }
