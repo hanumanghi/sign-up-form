@@ -6,26 +6,38 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <div>logo</div>
+        <div class="display">
+            <div class="logo">
+                <div><img src="./odin-lined.png" class="picture">Logo</div>
+            </div>
         </div>
-        <div>
-            <p> some text</p>
-            <div class="signup"></div>
+        <div class="rightSide">
+            <p>some text</p>
+            <div class="signup">
             <p>Let's sign</p>
             <form action="text" method="get">
-                <label for="first_name">First Name</label>
-                <input type="text">
-                <label for="last_name">Last Name</label>
-                <input type="text">
-                <label for="email">Email</label>
-                <input type="email">
-                <label for="password">Password</label>
-                <input type="password">
-                <label for="password">Confirm Password</label>
-                <input type="password">
+                <label for="first_name">First Name
+                <input type="text" required>
+                </label>
+                <label for="last_name">Last Name
+                <input type="text" required>
+                </label>
+                <label for="email">Email
+                <input type="email"  required>
+                </label>
+                <label for="phoneNumber">Phone Number
+                    <input type="'text">
+                </label>
+                <label for="password">Password
+                <input type="password" required>
+                </label>
+                <label for="password">Confirm Password
+                <input type="password" required>
+                </label>
             </form>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an Account? Log In</p>
         </div>
-        <button type="submit"> Create Account</button>
     </body>
 </html>
